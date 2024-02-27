@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Le cube 3D</title>
+    <style>
+        .image-container {
+            text-align: center;
+           
+        }
+        
+        .image-container img {
+            display: inline-block; 
+            max-width: 100%; 
+            height: auto; 
+            
+        }
+
+        .wrapper {
+    position: absolute;
+    bottom: 1350px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">EventBrite</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="Login.html">S'inscrire
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Banners.html">Les Bannières</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cards.html">Les Cartes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3D.html">Mention Spéciale</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <br>
+    <br>
+    <center><h1>Le cube 3D</h1></center>
+    
+    <div class="page-wrapper">
+        <div class="wrapper">
+            <div class="cube-wrap">
+                <div class="box">
+                    <div class="single-box side-back"></div>
+                    <div class="single-box side-top"></div>
+                    <div class="single-box side-bottom"></div>
+                    <div class="single-box side-left"></div>
+                    <div class="single-box side-right"></div>
+                    <div class="single-box side-front"></div>
+                </div>
+            </div>
+            <div class="text-overlay">
+                <a href="https://www.berghain.berlin/de/program/" style="visibility: hidden;">
+                    <h2>Mon texte sur le cube</h2>
+                    <p>Vous pouvez ajouter tout autre contenu ici.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+ <center><h1>Les codes Html</h1></center>
+    
+    <div class="image-container">
+        <img src="cubcs.png" alt="Description de l'image">
+    </div>
+    <br>
+    <br>
+    <br>
+    <center><h1>Le CSS</h1></center>
+    <br>
+    <br>
+    <br>
+    <div class="image-container">
+        <img src="cubccs.png" alt="Description de l'image">
+    </div>
+</body>
+</html>
